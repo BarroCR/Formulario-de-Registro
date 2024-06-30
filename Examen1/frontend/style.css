@@ -1,0 +1,88 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+
+.tablaGestion{
+    
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f4f2f3;
+    border-radius: 5px;
+    width: 100%;
+    max-width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla{
+    
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background:  #94a7ae;
+    border-radius: 5px;
+    width: auto;
+    max-width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tabla table{
+    width: 100%;
+    background-color: #f4f2f3 ;
+    border-collapse: collapse;
+    
+}
+tr:nth-child(even){
+    background-color: #f4f2f3;
+}
+tr:hover{
+    background-color: #e0e0e0;
+}
+th, td{
+    padding: 8px ;
+    border: 1px solid #ddd;;
+    text-align: left;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: #64766a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4d5f53;
+}
+button:active {
+    background-color: #3d4f43;
+    transform: scale(0.95);
+}
+
+.add-employee-pane {
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form-wrapper {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
